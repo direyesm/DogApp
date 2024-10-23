@@ -1,4 +1,4 @@
-package com.direyesm.dogapp
+package com.direyesm.dogapp.utils
 
 import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.RepeatMode
@@ -8,7 +8,6 @@ import androidx.compose.animation.core.rememberInfiniteTransition
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -66,7 +65,6 @@ fun DogBreedSkeletonLoader() {
                                 .padding(16.dp),
                             verticalAlignment = Alignment.CenterVertically
                         ) {
-                            // Icono en círculo con animación de shimmer
                             Box(
                                 modifier = Modifier
                                     .size(32.dp)
@@ -77,7 +75,6 @@ fun DogBreedSkeletonLoader() {
                             )
                             Spacer(modifier = Modifier.width(16.dp))
 
-                            // Texto simulado con un rectángulo alargado y animación de shimmer
                             Box(
                                 modifier = Modifier
                                     .height(20.dp)

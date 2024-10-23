@@ -7,6 +7,8 @@ import androidx.activity.viewModels
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.direyesm.dogapp.screen.DogBreedsScreen
+import com.direyesm.dogapp.screen.DogImagesScreen
 import com.direyesm.dogapp.ui.theme.DogAppTheme
 import com.direyesm.dogapp.viewmodel.DogBreedsViewModel
 import com.direyesm.dogapp.viewmodel.DogImagesViewModel
